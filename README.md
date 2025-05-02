@@ -23,3 +23,9 @@ This is a backend project whose aim is to manage user interactions, property lis
 - **Redis:** Used for caching and session management.
 - **Docker:** Conatainerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+
+## Team Roles
+- **Backend Developer:** Responsible for implementing the core of the app (API endpoints, database schemas, and business logic).
+- **Database Administrator:** Manages database design, indexing, and optimizations.
+- **DevOps Engineer:** Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery.
+- **QA Engineer:** Ensures the backend functionalities are thoroughly tested and meet quality standards.
