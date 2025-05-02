@@ -29,3 +29,15 @@ This is a backend project whose aim is to manage user interactions, property lis
 - **Database Administrator:** Manages database design, indexing, and optimizations.
 - **DevOps Engineer:** Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery.
 - **QA Engineer:** Ensures the backend functionalities are thoroughly tested and meet quality standards.
+
+## Technology Stack
+- **Django:** Python web framework for building the RESTful API.
+- **Django REST Framework:** Provides tools for creating and managing RESTful APIs.
+- **PostgreSql:** A powerful relational database used for data storage.
+- **GraphQL:** Allows for flexible and efficient querying  of data.
+- **Celery:** For handling asynchronous tasks such as sending notifications of processing payments.
+- **Redis:** Used for caching and session management.
+- **Docker:** Containerization tool for consistent development and deployment environments.
+- **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+
+
