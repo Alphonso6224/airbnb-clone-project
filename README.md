@@ -181,3 +181,12 @@ All communications between customer and server are secured using HTTPS. In Addit
 ### 5. Input validation
 To avoid attacks such as SQL or XSS injection, we will carefully validate all data sent by users and use parameterized queries to interact with the database.
 
+## CI/CD Pipeline
+
+The project uses a CI/CD (Continuous Integration/Continuous Deployment) approach to ensure a smooth, reliable and automated development process. This means that every time a developper pushes code, automatic actions are executed to check quality, run tests and eventually deploy the application.
+
+We'll be using tools like:
+- **GitHub Actions** to automate testing and deployment,
+- **Docker** to containerize the application.
+
+This approach improves delivery speed, reduces human error, and enables more effective collaboration between team members.
