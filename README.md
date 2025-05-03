@@ -128,3 +128,27 @@ Allows users to leave feedback about properties.
 - Each **Booking** is associated with one **Payment** (1:1).
 - A **Review** is unique for each **(User, Property)** pair.
 
+## Feature Breakdown
+
+### 1. User Management
+Users can create an account, log in, and access their personal dashboard. This ensures secure authentication and allows linking of bookings, payments, reviews to individual users.
+
+---
+
+### 2. Property Management
+Users can list their properties by providing a title, description, location, availability dates, and a price per night. This allows hosts to manage their listings and availability on the platform.
+
+---
+
+### 3. Booking System
+Users can book a property for a specific date range, provided it is available. The system checks availability and calculates the total price based on the number of nights.
+
+---
+
+### 4. Payments
+Each booking must be accompanied by a payment. This feature records the amount, payment status (e.g., paid, pending), and the payment method used, ensuring financial tracking.
+
+---
+
+### 5. Reviews and Ratings
+After completing a stay, users can leave a review for a property. This feature promotes transparency and helps other users make informed booking decisions.
