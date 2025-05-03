@@ -152,3 +152,32 @@ Each booking must be accompanied by a payment. This feature records the amount, 
 
 ### 5. Reviews and Ratings
 After completing a stay, users can leave a review for a property. This feature promotes transparency and helps other users make informed booking decisions.
+
+## API Security
+
+API Security is essential to protect user data and ensure that actions carried out on the platform are legitimate.
+Here are the main security measures we will be implementing in this project:
+
+### 1. Authentication
+We're going to use tokens to ensure that only authenticated users can access certain resources and perform sensitive actions, such as reserving properties or leaving feedback.
+
+---
+
+### 2. Authorization
+Once authenticated, a user will have limited access. This ensures that only hosts can create or modify properties, and that travelers cannot interfere with these actions.
+
+---
+
+### 3. Rate limiting
+To protect our application against denial-of-service (Dos) attacks and abuse, we will set a limit on the number of requests per minute or per hour for each user.
+
+---
+
+### 4. Date Encryption
+All communications between customer and server are secured using HTTPS. In Addition, sensitive information, such as passwords and payment details, will be stored in encrypted form.
+
+---
+
+### 5. Input validation
+To avoid attacks such as SQL or XSS injection, we will carefully validate all data sent by users and use parameterized queries to interact with the database.
+
